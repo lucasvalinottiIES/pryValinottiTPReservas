@@ -71,6 +71,7 @@ namespace pryValinottiTPReservas
             {
                 for (int j = 0; j < columnas; j++)
                 {
+                    if (cbTeatro.Text == "Tobas" && i == filas - 1 && (j == columnas - 2) && area == Color.Blue) break;
                     Button asiento = new Button();
                     asiento.FlatStyle = FlatStyle.Flat;
                     asiento.Cursor = Cursors.Hand;
